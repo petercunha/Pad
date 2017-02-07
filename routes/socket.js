@@ -1,6 +1,9 @@
+var app = require('express');
+var shortid = require('shortid');
+var router = app.Router();
+
 module.exports = function(io) {
-  var app = require('express');
-  var router = app.Router();
+  
   var welcomeMessage = "Pad created! Share the URL with a friend to edit text in real-time.";
   var pages = new Map(); // Stores Pad data
 
@@ -67,8 +70,15 @@ module.exports = function(io) {
     res.render('pad', { title: 'Pad', temp: welcomeMessage });
   });
 
+  /* Handle POST, redirect to GET pad by unique id */
   router.post('/:id', function(req, res, next) {
     res.render('pad', { title: 'Pad', temp: welcomeMessage });
+  });
+
+  /* Handle index requests for /Pad */
+  router.get('/', function(req, res, next) {
+    var sid = shortid.generate();
+    res.render('index', { title: 'Welcome to Pad', buttonLbl: 'Get started', id: sid });
   });
 
   return router;
