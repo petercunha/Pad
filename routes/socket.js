@@ -12,7 +12,7 @@ module.exports = function(io) {
         socket.emit('notify', { content: pages.get(data.path), path: data.path });
         console.log("Paste accessed: " + data.path);
       } else {
-        socket.emit('notify', { content: welcomeMessage, path: data.path });
+        socket.emit('notify', { content: '', path: data.path });
         console.log("Created paste: " + data.path);
       }
     });
@@ -30,11 +30,11 @@ module.exports = function(io) {
 
   /* GET pad by unique id */
   router.get('/:id', function(req, res, next) {
-    res.render('pad', { title: 'Pad' });
+    res.render('pad', { title: 'Pad', temp: welcomeMessage });
   });
 
   router.post('/:id', function(req, res, next) {
-    res.render('pad', { title: 'Pad' });
+    res.render('pad', { title: 'Pad', temp: welcomeMessage });
   });
 
   return router;
