@@ -28,6 +28,7 @@ var server = http.createServer(app);
 var io = app.io
 io.attach(server);
 
+
 /**
  * Listen on provided port, on all network interfaces.
  */
@@ -35,6 +36,7 @@ io.attach(server);
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
+console.log("Started server on port", port)
 
 /**
  * Normalize a port into a number, string, or false.
