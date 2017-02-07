@@ -33,5 +33,9 @@ module.exports = function(io) {
     res.render('pad', { title: 'Pad' });
   });
 
+  router.post('/:id', function(req, res, next) {
+    res.render('pad', { title: 'Pad' });
+  });
+
   return router;
 }
