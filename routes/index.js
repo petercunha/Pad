@@ -5,7 +5,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   var sid = shortid.generate();
-  res.render('index', { title: 'Pad', id: sid });
+  res.render('index', { title: 'Loading Pad...', id: sid });
 });
 
 module.exports = router;
