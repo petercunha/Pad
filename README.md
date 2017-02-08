@@ -26,4 +26,7 @@ cd pad
 npm install && npm start
 ```
 
+Demo
+----
 
+![Demo GIF](https://i.imgur.com/Q5Zolcx.gif)
