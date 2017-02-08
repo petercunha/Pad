@@ -26,12 +26,10 @@ socket.on('notify', function (data) {
 
 // Send latest data to server
 function processText() {
-    console.log("Activated");
     var x = document.getElementById("text").value;
 
-    if (cache = "") {
+    if (cache != x) {
+      socket.emit('data', { text: x, path: pathname });
       cache = x;
     }
-
-    socket.emit('datagram', { text: x, path: pathname });
 }

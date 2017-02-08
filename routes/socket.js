@@ -3,7 +3,7 @@ var shortid = require('shortid');
 var router = app.Router();
 
 module.exports = function(io) {
-  
+
   var welcomeMessage = "Pad created! Share the URL with a friend to edit text in real-time.";
   var pages = new Map(); // Stores Pad data
 
@@ -34,7 +34,7 @@ module.exports = function(io) {
     });
 
     // Handle incoming data from user
-    socket.on('datagram', function (data) {
+    socket.on('data', function (data) {
 
       // Update pad data in memory
       pages.set(data.path, data.text);
