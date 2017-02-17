@@ -1,9 +1,11 @@
 # Pad 
+[![Build Status](https://travis-ci.org/petercunha/Pad.svg?branch=master)](https://travis-ci.org/petercunha/Pad) [![Requirements Status](https://requires.io/github/petercunha/Pad/requirements.svg?branch=master)](https://requires.io/github/petercunha/Pad/requirements/?branch=master)
+
 Pad is an extremely lightweight, low-latency, collaborative notepad built with [WebSockets](https://en.wikipedia.org/wiki/WebSocket) and [NodeJS](https://nodejs.org/)!
 
 [Check out our demo](https://paperpad.herokuapp.com/)
 
-[![Build Status](https://travis-ci.org/petercunha/Pad.svg?branch=master)](https://travis-ci.org/petercunha/Pad) [![Requirements Status](https://requires.io/github/petercunha/Pad/requirements.svg?branch=master)](https://requires.io/github/petercunha/Pad/requirements/?branch=master)
+
 
 Requirements
 ------------
