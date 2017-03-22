@@ -59,7 +59,7 @@ module.exports = function(io) {
   // Clean up memory if Map gets too full
   function clearUpMemory() {
     for (var [key, value] of pages) {
-      if (value = "") {
+      if (value == "") {
         pages.delete(key);
       }
     }
