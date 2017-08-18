@@ -19,7 +19,7 @@ As long as you have Node 6 installed, you can just `git clone` and `npm install`
 Run your own server!
 --------------------
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 Or you can install Pad youself in just a few commands
 ```bash
