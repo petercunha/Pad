@@ -10,7 +10,7 @@ Pad is an extremely lightweight, low-latency, collaborative notepad built with [
 Requirements
 ------------
 
-  * Node 6.x
+  * Node 6.x or later
   * Required Node packages
   * Open port, if you want a public site
 
