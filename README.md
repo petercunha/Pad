@@ -1,5 +1,6 @@
 # Pad 
 [![Build Status](https://travis-ci.org/petercunha/Pad.svg?branch=master)](https://travis-ci.org/petercunha/Pad) [![Requirements Status](https://requires.io/github/petercunha/Pad/requirements.svg?branch=master)](https://requires.io/github/petercunha/Pad/requirements/?branch=master)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpetercunha%2FPad.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpetercunha%2FPad?ref=badge_shield)
 
 Pad is an extremely lightweight, low-latency, collaborative notepad built with [WebSockets](https://en.wikipedia.org/wiki/WebSocket) and [NodeJS](https://nodejs.org/)!
 
@@ -32,3 +33,7 @@ Demo
 ----
 
 ![Demo GIF](https://i.imgur.com/Q5Zolcx.gif)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpetercunha%2FPad.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpetercunha%2FPad?ref=badge_large)
