@@ -6,13 +6,13 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "body-parser": "~1.17.2",
+    "body-parser": "~1.18.3",
     "cookie-parser": "~1.4.3",
-    "debug": "~2.6.8",
-    "express": "~4.15.3",
-    "morgan": "~1.8.2",
+    "debug": "~4.0.1",
+    "express": "~4.16.3",
+    "morgan": "~1.9.1",
     "pug": "^2.0.0-rc.2",
-    "serve-favicon": "~2.4.3",
+    "serve-favicon": "~2.5.0",
     "shortid": "^2.2.8",
     "socket.io": "^2.0.3"
   },
