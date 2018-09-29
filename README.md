@@ -3,7 +3,7 @@
 
 Pad is an extremely lightweight, low-latency, collaborative notepad built with [WebSockets](https://en.wikipedia.org/wiki/WebSocket) and [NodeJS](https://nodejs.org/)!
 
-[Check out our demo](https://paperpad.herokuapp.com/)
+[Check out our demo](https://paperpad.now.sh)
 
 
 
@@ -19,11 +19,11 @@ As long as you have Node 6 installed, you can just `git clone` and `npm install`
 Run your own server!
 --------------------
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/petercunha/Pad)
 
 Or you can install Pad youself in just a few commands
 ```bash
-git clone https://github.com/petercunha/pad.git
+git clone https://github.com/petercunha/Pad.git
 cd pad
 npm install && npm start
 ```
