@@ -1,6 +1,5 @@
 # Pad 
-[![Build Status](https://travis-ci.org/petercunha/Pad.svg?branch=master)](https://travis-ci.org/petercunha/Pad) 
-![Dependency Status](https://img.shields.io/hackage-deps/v/lens.svg)
+[![Build Status](https://travis-ci.org/petercunha/Pad.svg?branch=master)](https://travis-ci.org/petercunha/Pad)
 
 Pad is an extremely lightweight, low-latency, collaborative notepad built with [WebSockets](https://en.wikipedia.org/wiki/WebSocket) and [NodeJS](https://nodejs.org/)!
 
