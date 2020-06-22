@@ -7,13 +7,13 @@
     "test": "echo ok"
   },
   "dependencies": {
-    "body-parser": "~1.18.3",
-    "cookie-parser": "~1.4.3",
-    "debug": "~4.0.1",
-    "express": "~4.16.3",
-    "morgan": "~1.9.1",
-    "pug": "^2.0.0-rc.2",
-    "serve-favicon": "~2.5.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.3",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.0",
+    "serve-favicon": "^2.5.0",
     "shortid": "^2.2.8",
     "socket.io": "^2.0.3"
   },
