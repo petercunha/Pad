@@ -17,11 +17,7 @@ socket.emit('sync', { path: pathname })
 
 // Set TextArea as server response
 socket.on('notify', function (data) {
-  if (data.path == pathname) {
-    document.getElementById('text').value = data.content
-  } else {
-    console.log('Recieved: ' + data.path + ' Have: ' + pathname)
-  }
+  document.getElementById('text').value = data.content
 })
 
 // Send latest data to server

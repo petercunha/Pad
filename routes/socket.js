@@ -12,6 +12,9 @@ module.exports = function (io) {
 
     // Handle sync request
     socket.on('sync', function (data) {
+      // Join room with all users for this pad
+      socket.join(data.path)
+
       if (pages.has(data.path)) {
         // Page exists, notify with pad data
         notify(socket, pages.get(data.path), data.path)
@@ -44,7 +47,7 @@ module.exports = function (io) {
 
   // Send update to all clients
   function notifyAll (socket, c, p) {
-    socket.broadcast.emit('notify', { content: c, path: p })
+    socket.to(p).emit('notify', { content: c, path: p })
   }
 
   // Clean up memory if Map gets too full
